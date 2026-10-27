@@ -24,9 +24,3 @@ The app uses SQLite through `SQLiteOpenHelper`. Pantry items persist locally on 
 ## Strict matching
 Each recipe ingredient is stored as `name:quantity:unit`. A recipe appears only when every required pantry ingredient has the normalized same name, the same unit, and quantity greater than or equal to the requirement. This avoids suggesting a recipe when an ingredient is missing or insufficient.
 
-## Student
-Student number: 402413319
-Surname: Nephawe
-
-## Before submission
-Add your own meaningful GitHub commits throughout development, take real screenshots of the running app, write your report based on what you actually tested, and include your 5–7 minute narrated video. Do not claim features work until you have run and tested them.
