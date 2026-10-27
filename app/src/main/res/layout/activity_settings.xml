@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+    android:padding="22dp" android:background="#FFFDF5">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Settings" android:textSize="26sp" android:textStyle="bold" android:textColor="#352B10"
+        android:paddingBottom="18dp"/>
+    <CheckBox android:id="@+id/expiryToggle" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Show expiry reminder preference" android:textColor="#352B10" android:buttonTint="#F2B705"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="This starter project stores pantry items locally on your device using SQLite."
+        android:textColor="#756B52" android:paddingTop="14dp"/>
+    <Button android:id="@+id/backButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Back" android:backgroundTint="#F2B705" android:textColor="#352B10"/>
+</LinearLayout>

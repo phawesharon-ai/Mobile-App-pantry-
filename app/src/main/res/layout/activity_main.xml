@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="20dp" android:background="#FFFDF5">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Smart Pantry Manager" android:textSize="26sp" android:textStyle="bold"
+        android:textColor="#352B10" android:paddingBottom="6dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Use what you have. Waste less food." android:textSize="15sp"
+        android:textColor="#756B52" android:paddingBottom="18dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="MY PANTRY" android:textStyle="bold" android:textColor="#756B52"
+        android:paddingBottom="8dp"/>
+    <ListView android:id="@+id/pantryList" android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1" android:divider="#F1E6C1"
+        android:dividerHeight="1dp" android:background="#FFFFFF"/>
+    <Button android:id="@+id/addButton" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="+ Add ingredient"
+        android:backgroundTint="#F2B705" android:textColor="#352B10"/>
+    <Button android:id="@+id/suggestButton" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Suggested recipes"
+        android:backgroundTint="#FFFFFF" android:textColor="#352B10"/>
+    <Button android:id="@+id/settingsButton" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Settings"
+        android:backgroundTint="#FFF0B3" android:textColor="#352B10"/>
+</LinearLayout>

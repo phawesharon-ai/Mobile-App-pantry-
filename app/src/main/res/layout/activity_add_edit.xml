@@ -1,0 +1,19 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#FFFDF5">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="22dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Add / Edit Ingredient" android:textSize="24sp" android:textStyle="bold"
+            android:textColor="#352B10" android:paddingBottom="20dp"/>
+        <EditText android:id="@+id/nameInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Ingredient name (e.g. tomato)" android:inputType="textCapSentences"/>
+        <EditText android:id="@+id/quantityInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Quantity (e.g. 2)" android:inputType="numberDecimal"/>
+        <EditText android:id="@+id/unitInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Unit (e.g. pieces, pinch, cups)" android:inputType="textCapSentences"/>
+        <Button android:id="@+id/saveButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Save ingredient" android:backgroundTint="#F2B705" android:textColor="#352B10"/>
+        <Button android:id="@+id/cancelButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Cancel" android:backgroundTint="#FFFFFF" android:textColor="#352B10"/>
+    </LinearLayout>
+</ScrollView>
